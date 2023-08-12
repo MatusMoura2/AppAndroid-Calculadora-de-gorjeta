@@ -9,6 +9,7 @@ Este é um aplicativo Android nativo desenvolvido em Java que permite calcular a
 - O aplicativo calcula automaticamente o valor da gorjeta e exibe o valor total a ser pago.
 
 ## Capturas de Tela
+![Captura de tela 2023-08-12 120853](https://github.com/MatusMoura2/AppAndroid-Calculadora-de-gorjeta/assets/137653720/798a8d50-8ab7-4d54-816e-358755bc357d)
 
 
 
