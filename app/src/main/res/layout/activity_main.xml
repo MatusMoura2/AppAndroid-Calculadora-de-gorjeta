@@ -33,6 +33,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/ImputValue"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="digite o valor da compra ex: 156,53"
@@ -40,7 +41,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/idPercentage"
         android:layout_width="70dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -73,7 +74,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView5" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/textTotal"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -83,10 +84,10 @@
         android:text="0.00"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView7"
-        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+        app:layout_constraintTop_toBottomOf="@+id/textTip" />
 
     <TextView
-        android:id="@+id/textView4"
+        android:id="@+id/textTip"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="80dp"
@@ -100,14 +101,14 @@
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
     <SeekBar
-        android:id="@+id/seekBar"
+        android:id="@+id/seekBarTip"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
         android:layout_marginTop="32dp"
         android:layout_marginEnd="32dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/textView2"
+        app:layout_constraintStart_toEndOf="@+id/idPercentage"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout2" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
