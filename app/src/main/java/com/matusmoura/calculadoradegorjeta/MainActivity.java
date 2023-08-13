@@ -65,8 +65,10 @@ public class MainActivity extends AppCompatActivity {
              double valueImput = Double.parseDouble(valuePrimary);
 
              double tip = valueImput * (percentage/100);
+             double total = valueImput + tip;
 
              valueTip.setText("R$ "+Math.round(tip));
+             textTotal.setText("R$ "+total);
          }
         }
     }
