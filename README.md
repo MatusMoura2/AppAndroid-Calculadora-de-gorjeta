@@ -21,6 +21,10 @@ Este é um aplicativo Android nativo desenvolvido em Java que permite calcular a
 3. Navegue até a classe `MainActivity.java` onde está a lógica principal do aplicativo.
 4. Execute o aplicativo em um emulador ou dispositivo Android.
 
+## Caso queira instalar
+
+https://drive.google.com/drive/folders/1sUCGt_p72zN4C1tFUVJtebdfH2rJmRtW?usp=drive_link
+
 ## Estrutura do Projeto
 
 - `app/src/main/java/com/matusmoura/calculadoradegorjeta`: Contém o código-fonte do aplicativo.
