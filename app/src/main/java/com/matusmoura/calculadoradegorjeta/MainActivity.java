@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         }
         public void calcular(){
          String valuePrimary = editValue.getText().toString();
-         if (valuePrimary == null || valuePrimary.equals(" ")){
+         if (valuePrimary == null || valuePrimary.equals("")){
              Toast.makeText(getApplicationContext(),"Digite um valor!",Toast.LENGTH_LONG).show();
          }else{
 
