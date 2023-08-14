@@ -10,6 +10,7 @@ Este é um aplicativo Android nativo desenvolvido em Java que permite calcular a
 
 ## Capturas de Tela
 ![Captura de tela 2023-08-12 120853](https://github.com/MatusMoura2/AppAndroid-Calculadora-de-gorjeta/assets/137653720/798a8d50-8ab7-4d54-816e-358755bc357d)
+![Android Emulator - Pixel_3a_API_33_x86_64_5554 2023-08-13 21-42-29](https://github.com/MatusMoura2/AppAndroid-Calculadora-de-gorjeta/assets/137653720/7e6adf41-5b74-4ad7-92b8-ddfc5bf6e67b)
 
 
 
